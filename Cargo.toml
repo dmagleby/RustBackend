@@ -12,3 +12,5 @@ chrono = { version = "0.4", features = ["serde"] }
 bcrypt = "0.10"
 r2d2 = "0.8"
 bigdecimal = { version = "0.3", features = ["serde"] }
+actix-web-httpauth = "0.8"
+derive_more = "0.99"

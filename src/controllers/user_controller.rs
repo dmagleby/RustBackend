@@ -1,4 +1,3 @@
-use crate::models::User;
 use crate::services::user_service;
 use actix_web::{web, HttpResponse, Responder};
 use diesel::r2d2::{ConnectionManager, Pool};

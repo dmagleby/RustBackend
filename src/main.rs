@@ -1,5 +1,6 @@
 use actix_web::{App, HttpServer};
 use rust_backend::routes;
+
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
